@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        .page {
+            font-family:sans-serif;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px 5px #616161;
+            padding: 50px;
+            height: 60%;
+            width: 25%;
+            margin: auto;
+            margin-top: 5%;
+        }
+
+        input {
+            display: inline-block;
+            box-sizing: border-box;
+            width: 100%;
+            padding: 15px 20px;
+            margin: 10px 0;
+            border: 1px solid rgb(199, 199, 199);
+            border-radius: 5px;
+        }
+
+        #message {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            width: 95%;
+        }
+
+        button {
+            background-color: #542fbb;
+            color: white;
+            width: 100%;
+            padding: 15px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #9071ff;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div class="page">
+        <form id="Form" method="POST" action="/form" enctype="multipart/form-data">
+            <div class="box">
+                <!-- Email input field -->
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="email" required> <br>
+
+                <!-- Full name input field -->
+                <label for="Fname">Full Name</label> <br>
+                <input type="text" id="Fname" name="Fname" required> <br>
+
+                <!-- Message input field -->
+                <label for="message">Message</label> <br>
+                <textarea id="message" name="msg"></textarea><br>
+
+                <!-- File input field -->
+                <label for="picture">Photo</label> <br>
+                <input type="file" id="picture" name="picture" required> <br>
+
+
+                <button type="submit">Submit</button><br>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

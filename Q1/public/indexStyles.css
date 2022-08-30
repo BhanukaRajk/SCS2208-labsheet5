@@ -1,0 +1,113 @@
+body {
+    font-family: sans-serif;
+    color: rgb(36, 36, 36);
+}
+
+.logimg {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    font-size: 20px;
+}
+
+.alternatives {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    margin-top: 48%;
+}
+
+.icbox {
+    margin-left: 5%;
+}
+
+
+.forgotten {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+.reg {
+    text-decoration: none;
+    color: rgb(245, 53, 53);
+}
+
+.content, .content2 {
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 2% 2%;
+    box-shadow: 1px 3px 8px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    box-shadow: 10px black;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#email,
+#pwd {
+    font-size: medium;
+    width: 93%;
+    padding: 0.7rem;
+    margin-bottom: 5%;
+}
+
+#btn {
+    font-size: medium;
+    color: white;
+    padding: 3% 15% 3% 15%;
+    background-color: #0066ff;
+    border: none;
+    border-radius: 5px;
+}
+
+.pswd,
+.username {
+    justify-content: center;
+}
+
+.popt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.picture {
+    width: 100%;
+}
+
+.login {
+    margin-top: 5%;
+    text-align: left;
+}
+
+.logout {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.newuser {
+    text-align: left;
+}
+
+.logform {
+    width: 90%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#btn:hover {
+    background: #5572f4a9;
+}
